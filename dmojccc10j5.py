@@ -27,7 +27,8 @@ def findRecursiveSolution(startPos, endPos, moves, totalMoves, layer):
         layer -= 1
 
     else:
-        if startPos[0] < endPos[0] amd startPos[1] < endPos 
+        if startPos[0] < endPos[0] amd startPos[1] < endPos:
+            pass
 
     else:
         for moveset in range(len(possibleMoves)):
