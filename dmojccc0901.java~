@@ -1,0 +1,23 @@
+/* [dmojccc09j1.java]
+ * Joseph Wang
+ * Fun fun dmoj
+ */
+import java.util.Scanner;
+
+class dmojccc0901 {
+  public static void main(String[] args){
+    const int beginningSum = 91;
+    Scanner input = Scanner(System.in);
+    int totalNum = beginningSum;
+    
+    for (int x = 0; x < 3; x++){
+      num = input.nextInt();
+      if x % 2 == 0 {
+        totalNum += num * 1
+      } else {
+         totalNum += num * 3 
+        }
+    }  
+    System.out.println("The 1-3 sum is " + num);
+  }
+}
