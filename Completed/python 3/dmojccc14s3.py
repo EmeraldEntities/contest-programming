@@ -39,3 +39,6 @@ for case in range(int(read())):
 
 for i in answers:
     print(i)
+
+#completed 11/11/2019
+#notes: great problem
