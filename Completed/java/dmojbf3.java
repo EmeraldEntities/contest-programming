@@ -42,3 +42,6 @@ public class dmojbf3 {
     
   }
 }
+
+//completed 09/18/2019
+//notes: this was just to try out java so it's not optimized at all

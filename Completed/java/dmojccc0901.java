@@ -20,3 +20,6 @@ public class dmojccc0901 {
     System.out.println("The 1-3-sum is " + totalNum);
   }
 }
+
+//completed 09/18/2019
+//notes: this was just to try out java so it's not optimized at all
