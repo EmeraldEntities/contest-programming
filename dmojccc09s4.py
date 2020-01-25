@@ -28,6 +28,3 @@ for node in startNodes:
 
     # priority queue for dijkstra?
     #while len(unvisited) > 0:
-
-
-#I don't even know if this is possible in python but id like to try

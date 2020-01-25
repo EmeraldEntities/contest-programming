@@ -1,10 +1,16 @@
 import sys
+from collections import defaultdict, deque
 
-newRoad = None
+input = sys.stdin.readline
+graph = defaultdict(list)
+
+newRoad = input().rstrip()
 
 while newRoad != "**":
-    newRoad = list(sys.stdin.readline().rstrip())
+    road = list(newRoad)
+    graph[road[0]].append(road[1])
+    graph[road[1]].append(road[0])
 
+    newRoad = input().rstrip()
 
-def locate():
-    pass
+#im stuck idk
