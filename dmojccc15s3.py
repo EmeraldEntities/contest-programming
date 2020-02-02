@@ -2,7 +2,8 @@ import sys
 
 input = sys.stdin.readline
 
-gates = [True for x in range(int(input().rstrip()))]
+gates = {x: True for x in range(int(input().rstrip()))}
+# gates = [True for x in range(int(input().rstrip()))]
 
 total = 0
 totalPlanes = int(input().rstrip())
@@ -25,3 +26,4 @@ for plane in range(totalPlanes):
 sys.stdout.write(str(total))
 
 # not fast enough, idk why
+# update: 1/31/2020 - hashmaps are TOO SLOW man, i wonder if there's a complex data structure i need or smth
