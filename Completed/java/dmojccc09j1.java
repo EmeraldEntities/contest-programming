@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class dmojccc0901 {
+public class dmojccc09j1 {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     int totalNum = 91;
